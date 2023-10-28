@@ -75,11 +75,27 @@ body{
     height: 7.14rem;
 }
 
-img:hover{
-    transition: all;
-
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
 }
 
+.pagination button{
+    background-color:#6c79db;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    height: 35px;
+    width: 100px;
+
+}
 .normal{
     background-color: #a6a877;
 }  
@@ -92,7 +108,7 @@ img:hover{
 .water{
     background-color: #678fee;
 }  
-.eletric{
+.electric{
     background-color: #f7cf2e;
 }  
 .ice{
