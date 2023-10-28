@@ -15,7 +15,7 @@
     }
 
     .pokemon .detail img {
-        max-width: 100%;
+        max-width: 60%;
         height: 6.14rem;
     }
 
@@ -39,7 +39,7 @@
     .pokemon .detail {
         display: flex;
         flex-direction: row;
-        gap: 55px;
+        justify-content:space-between;
     }
     .pokemons{
         display: grid;
@@ -95,11 +95,11 @@
     .pokemon .detail {
         display: flex;
         flex-direction: row;
-        gap: 168px;
+
     }
 
     .pokemon .detail img {
-        max-width: 100%;
+        max-width: 50%;
         height: 8.00rem;
     }
  }
